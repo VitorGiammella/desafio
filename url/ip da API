@@ -1,0 +1,7 @@
+if (environment === 'local') {
+		ENV['ember-cli-mirage'] = {
+			enabled: false
+		};
+		ENV.apiHost = 'http://ec2-52-45-26-25.compute-1.amazonaws.com:5050',
+		ENV.apiNamespace = 'dev';
+}
